@@ -1,7 +1,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 ## Calulate your run to volunteer ratio below
 
-# 3
+# 4
 
 <script>
   function myFunction() {
@@ -11,10 +11,10 @@
   console.log(runs);
   
   if(runs == null || runs==""){
-    document.getElementById("p1").innerHTML = "Please enter a value
+    document.getElementById("p1").innerHTML = "Please enter a value;
   }
   if(vols == null || vols==""){
-    document.getElementById("volsError").innerHTML = "Please enter a value
+    document.getElementById("volsError").innerHTML = "Please enter a value;
   }
   
   if (vols!="" && runs!="")
