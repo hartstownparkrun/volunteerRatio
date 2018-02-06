@@ -11,12 +11,15 @@ para.appendChild(node);
 var element = document.getElementById("div1");
 element.appendChild(para);
   function myFunction() {
-    document.getElementById("p1").innerHTML = "Button clicked";
+    var runs = document.getElementById("runs").value;
+    var vols = document.getElementById("vols").value;
+  
+    document.getElementById("p1").innerHTML = runs + ":" + vols ;
 }
 </script>
 
 <div>
-  <div><span># of runs</span><span><input></span><br>
-  <div><span># of volunteering</span><span><input></span>
+  <div><span># of runs</span><span><input type="text" name="runs" id="runs" value="" /></span><br>
+  <div><span># of volunteering</span><span><input type="text" name="vols" id="vols" value="" /></span>
 </div>
     <button onclick="myFunction()">Calculate</button>
