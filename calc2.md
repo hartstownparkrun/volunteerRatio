@@ -18,4 +18,4 @@
   <div><span># of volunteering</span><span><input type="number" name="vols" id="vols" value="" /></span>
 </div>
     <button onclick="myFunction()">Calculate</button>
-    <p id="p1">3</p>
+    <p id="p1"></p>
