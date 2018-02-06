@@ -1,8 +1,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 ## Calulate your run to volunteer ratio below
 
-# 2
-
+# 3
 
 <script>
   function myFunction() {
@@ -11,7 +10,7 @@
   
   console.log(runs);
   
-  if(runs == null){
+  if(runs == null || runs==""){
     alert('please eneter a run');
     }
   
