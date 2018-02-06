@@ -44,8 +44,8 @@
 </script>
 
 <div>
-  <div><span># of runs</span><span><input onchange="updateError('runs')" type="number" name="runs" id="runs" value="" /></span><span id="runsError" class="error"></span><br>
-  <div><span># of volunteering</span><span><input type="number" name="vols" id="vols" value="" /><span id="volsError" class="error"></span></span>
+  <div><span># of runs</span><span><input onchange="updateError(this.name)" type="number" name="runs" id="runs" value="" /></span><span id="runsError" class="error"></span><br>
+  <div><span># of volunteering</span><span><input onchange="updateError(this.name)" type="number" name="vols" id="vols" value="" /><span id="volsError" class="error"></span></span>
 </div>
     <button onclick="myFunction()">Calculate</button>
     <p id="p1"></p>
