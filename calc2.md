@@ -54,23 +54,21 @@
       document.getElementById("p1").innerHTML = "";}
 }
 </script>
-
-
-    
-   
     
     <div class="divTable">
             <div class="divRow">
                 <div class="divCell"># of runs</div>
                 <div class="divCell"><input onchange="updateError(this.name)" type="number" name="runs" id="runs" value="" /></div>
                 <div class="divCell"><span id="runsError" class="error"></div>
-                <div class="divCell"><button onclick="myFunction()">Calculate</button></div>
             </div>
             <div class="divRow">
                 <div class="divCell"># of volunteering</div>
                 <div class="divCell"><input onchange="updateError(this.name)" type="number" name="vols" id="vols" value="" /></div>
                 <div class="divCell"><span id="volsError" class="error"></div>
                 <div class="divCell"></div>
-           </div>     
+           </div>  
+            <div class="divRow">
+                <div class="divCell"><button onclick="myFunction()">Calculate</button></div>
+			</div>
      </div>
       <p id="p1"></p>
