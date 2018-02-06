@@ -14,7 +14,7 @@
 </script>
 
 <div>
-  <div><span># of runs</span><span><input type="text" name="runs" id="runs" value="" /></span><br>
-  <div><span># of volunteering</span><span><input type="text" name="vols" id="vols" value="" /></span>
+  <div><span># of runs</span><span><input type="number" name="runs" id="runs" value="" /></span><br>
+  <div><span># of volunteering</span><span><input type="number" name="vols" id="vols" value="" /></span>
 </div>
     <button onclick="myFunction()">Calculate</button>
