@@ -1,10 +1,4 @@
-# Calulate your run to volunteer ratio below
-
-
-## testing theme
-
-### 2rd
-
+## Calulate your run to volunteer ratio below
 <div id="div1">
 <p id="p1">This is a paragraph.</p>
 
