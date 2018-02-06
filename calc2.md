@@ -10,7 +10,7 @@
 
 <script>
   function updateError(element) {
-  alert(element);
+     document.getElementById(element).innerHTML = "";
   }
   function myFunction() {
     var runs = document.getElementById("runs").value;
