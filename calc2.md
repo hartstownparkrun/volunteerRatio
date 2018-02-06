@@ -1,7 +1,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 ## Calulate your run to volunteer ratio below
 
-# 15
+# 16
 <style>
 .error {
   color:red;
@@ -40,18 +40,23 @@
     var runs = document.getElementById("runs").value;
     var vols = document.getElementById("vols").value;  
     if(runs == null || runs==""){
-      document.getElementById("runsError").innerHTML = "Please enter a value";}
+      document.getElementById("runsError").innerHTML = "Please enter a value";
+	}
     else {
-     document.getElementById("runsError").innerHTML = "";}
+     document.getElementById("runsError").innerHTML = "";
+	}
     if(vols == null || vols==""){
-      document.getElementById("volsError").innerHTML = "Please enter a value";}
+      document.getElementById("volsError").innerHTML = "Please enter a value";
+	}
     else{
-      document.getElementById("volsError").innerHTML = "";}
-
+      document.getElementById("volsError").innerHTML = "";
+	}
     if (vols!="" && runs!=""){
-      document.getElementById("p1").innerHTML = runs/vols + ":1" ;}
+      document.getElementById("p1").innerHTML = runs/vols + ":1" ;
+	}
     else {
-      document.getElementById("p1").innerHTML = "";}
+      document.getElementById("p1").innerHTML = "";
+	}
 }
 </script>
     #of runs<input onchange="updateError(this.name)" type="number" name="runs" id="runs" value="" /><span id="runsError" class="error">
