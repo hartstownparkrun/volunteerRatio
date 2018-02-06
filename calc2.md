@@ -14,32 +14,20 @@
   }
   function myFunction() {
     var runs = document.getElementById("runs").value;
-    var vols = document.getElementById("vols").value;
-  
-  console.log(runs);
-  
-  if(runs == null || runs==""){
-    document.getElementById("runsError").innerHTML = "Please enter a value";
-  }
-  else {
-   document.getElementById("runsError").innerHTML = "";
-  }
-  if(vols == null || vols==""){
-    document.getElementById("volsError").innerHTML = "Please enter a value";
-  }
-  else
-  {
-  document.getElementById("volsError").innerHTML = "";
-  }
-  
-  if (vols!="" && runs!="")
-  {
-    document.getElementById("p1").innerHTML = runs/vols + ":1" ;
-    }
-    else
-    {
-    document.getElementById("p1").innerHTML = "";
-    }
+    var vols = document.getElementById("vols").value;  
+    if(runs == null || runs==""){
+      document.getElementById("runsError").innerHTML = "Please enter a value";}
+    else {
+     document.getElementById("runsError").innerHTML = "";}
+    if(vols == null || vols==""){
+      document.getElementById("volsError").innerHTML = "Please enter a value";}
+    else{
+      document.getElementById("volsError").innerHTML = "";}
+
+    if (vols!="" && runs!=""){
+      document.getElementById("p1").innerHTML = runs/vols + ":1" ;}
+    else {
+      document.getElementById("p1").innerHTML = "";}
 }
 </script>
 
