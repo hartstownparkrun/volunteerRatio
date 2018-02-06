@@ -1,6 +1,6 @@
 ## Calulate your run to volunteer ratio below
 <div id="div1">
-<p id="p1">This is a paragraph.</p>
+<p id="p1">.</p>
 
 </div>
 
@@ -10,10 +10,13 @@ var node = document.createTextNode("This is new. 2");
 para.appendChild(node);
 var element = document.getElementById("div1");
 element.appendChild(para);
+  function myFunction() {
+    document.getElementById("p1").innerHTML = "Button clicked";
+}
 </script>
 
 <div>
   <div><span># of runs</span><span><input></span><br>
   <div><span># of volunteering</span><span><input></span>
 </div>
-    <button>Calculate</button>
+    <button onclick="myFunction()">Calculate</button>
