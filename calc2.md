@@ -55,33 +55,22 @@
 }
 </script>
 
-<div>
-  <div><span># of runs</span><span><input onchange="updateError(this.name)" type="number" name="runs" id="runs" value="" /></span><span id="runsError" class="error"></span><br>
-  <div><span># of volunteering</span><span><input onchange="updateError(this.name)" type="number" name="vols" id="vols" value="" /><span id="volsError" class="error"></span></span>
-</div>
-    <button onclick="myFunction()">Calculate</button>
-    <p id="p1"></p>
+
+    
+   
     
     <div class="divTable">
-             <div class="headRow">
-                <div class="divCell" align="center">Customer ID</div>
-                <div  class="divCell">Customer Name</div>
-                <div  class="divCell">Customer Address</div>
-             </div>
             <div class="divRow">
-                  <div class="divCell">001</div>
-                <div class="divCell">002</div>
-                <div class="divCell">003</div>
+                <div class="divCell"># of runs</div>
+                <div class="divCell"><input onchange="updateError(this.name)" type="number" name="runs" id="runs" value="" /></div>
+                <div class="divCell"><span id="runsError" class="error"></div>
+                <div class="divCell"><button onclick="myFunction()">Calculate</button></div>
             </div>
             <div class="divRow">
-                <div class="divCell">xxx</div>
-                <div class="divCell">yyy</div>
-                <div class="divCell">www</div>
-           </div>
-            <div class="divRow">
-                <div class="divCell">ttt</div>
-                <div class="divCell">uuu</div>
-                <div class="divCell">Mkkk</div>
-           </div>
-
-      </div>
+                <div class="divCell"># of volunteering</div>
+                <div class="divCell"><input onchange="updateError(this.name)" type="number" name="vols" id="vols" value="" /></div>
+                <div class="divCell"><span id="volsError" class="error"></div>
+                <div class="divCell"></div>
+           </div>     
+     </div>
+      <p id="p1"></p>
