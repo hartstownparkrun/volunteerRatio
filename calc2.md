@@ -1,6 +1,5 @@
 ## Calulate your run to volunteer ratio below
-<div id="div1">
-<p id="p1"></p>
+
 
 </div>
 
@@ -18,3 +17,4 @@
   <div><span># of volunteering</span><span><input type="number" name="vols" id="vols" value="" /></span>
 </div>
     <button onclick="myFunction()">Calculate</button>
+    <p id="p1"></p>
