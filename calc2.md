@@ -5,11 +5,6 @@
 </div>
 
 <script>
-var para = document.createElement("p");
-var node = document.createTextNode("This is new. 2");
-para.appendChild(node);
-var element = document.getElementById("div1");
-element.appendChild(para);
   function myFunction() {
     var runs = document.getElementById("runs").value;
     var vols = document.getElementById("vols").value;
