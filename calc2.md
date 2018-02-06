@@ -26,7 +26,7 @@
       document.getElementById("volsError").innerHTML = "";}
 
     if (vols!="" && runs!=""){
-      document.getElementById("p1").innerHTML = runs/vols + ":1" ;}
+      document.getElementById("p1").innerHTML = (runs/vols).toFixed(2); + ":1" ;}
     else {
       document.getElementById("p1").innerHTML = "";}
 }
