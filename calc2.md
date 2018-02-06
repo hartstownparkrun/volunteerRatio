@@ -1,7 +1,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 ## Calulate your run to volunteer ratio below
 
-# 12
+# 14
 <style>
 .error {
   color:red;
@@ -10,7 +10,7 @@
 
 <script>
   function updateError(element) {
-     document.getElementById(element).innerHTML = "";
+     document.getElementById(element+"Error").innerHTML = "";
   }
   function myFunction() {
     var runs = document.getElementById("runs").value;
