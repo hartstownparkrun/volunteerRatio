@@ -1,6 +1,6 @@
 ## Calulate your run to volunteer ratio below
 <div id="div1">
-<p id="p1">.</p>
+<p id="p1"></p>
 
 </div>
 
@@ -9,7 +9,7 @@
     var runs = document.getElementById("runs").value;
     var vols = document.getElementById("vols").value;
   
-    document.getElementById("p1").innerHTML = runs + ":" + vols ;
+    document.getElementById("p1").innerHTML = runs/vols + ":1" ;
 }
 </script>
 
