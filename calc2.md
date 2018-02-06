@@ -20,5 +20,5 @@ element.appendChild(para);
 
 <div>
   <div><span># of runs</span><span><input></span><br>
-  <div><span># of runs</span><span><input></span>
+  <div><span># of volunteering</span><span><input></span>
 </div>
