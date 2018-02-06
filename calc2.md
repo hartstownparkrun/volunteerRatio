@@ -11,7 +11,7 @@
   console.log(runs);
   
   if(runs == null || runs==""){
-    document.getElementById("p1").innerHTML = "Please enter a value";
+    document.getElementById("runsError").innerHTML = "Please enter a value";
   }
   if(vols == null || vols==""){
     document.getElementById("volsError").innerHTML = "Please enter a value";
