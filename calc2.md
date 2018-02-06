@@ -17,3 +17,6 @@ para.appendChild(node);
 var element = document.getElementById("div1");
 element.appendChild(para);
 </script>
+
+Enter the number of runs <input>
+Enter the number of volunteers <input>
