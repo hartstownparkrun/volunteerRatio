@@ -6,6 +6,9 @@
 .error {
   color:red;
   }
+.result{
+  font-size:50px;
+  }
 </style>
 
 <script>
@@ -36,4 +39,4 @@
   <div><span># of volunteering</span><span><input onchange="updateError(this.name)" type="number" name="vols" id="vols" value="" /><span id="volsError" class="error"></span></span>
 </div>
     <button onclick="myFunction()">Calculate</button>
-    <p id="p1"></p>
+    <p id="p1" class="result"></p>
